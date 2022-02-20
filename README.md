@@ -1,108 +1,132 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Gym-website
+L D Fitness
+L D Fitness is a website that aims to provide imformation regarding gym time aswell as price plans and Adress.
 
-Welcome USER_NAME,
+The live link can be found here - LD Fitness  https://jamesrcutmore.github.io/Gym-website/
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+L D Fitness is a  Responsive Image
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+Site Owner Goals
+To provide the user with information about pricing and times.
 
-## Gitpod Reminders
+To provide the user with clear and concise instructions .
+To present the user with a website that is easy to navigate, fully responsive and easy to subscribe.
+To enable the user to locate gym premises in their local area if they wish to look around first.
+User Stories
+First time user:
+As a first time user I want to understand the main purpose of the site and IE LD Fitness logo and imagery of a gym. 
+As a first time user I want to be able to intuitively navigate the website and have a positive easy to use experience.
+As a first time user I want to be able to browse price plans content without having to sign-up / register.
+Returning User
+As a returning user I want to easily navigate and upgrade their price plan if they wish.
+As a returning user I want to find step by step instructions in order to complete a subscription.
+As a returning user I want to be able to easily find the gym location.
+Frequent User
+As a frequent user I want to be able to sign-up to or change price plan.
+As a frequent user I want them to send an e-mail for Querys.
+Design
+Imagery
+The imagery used on the LD Fitness site is very important to the experience of the user, easily reconisable as a gym through the ld fitness logo and a gym themed image.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Colours
+The colour scheme of the website with the orange and darker shade for the logo and contrasting backgrounds making it easy to read.
+Below is a list of the colours used.
 
-`python3 -m http.server`
+ primary: #19a87b; -Borealis.
+ secondary: #669ced;-Boysclub. 
+ accent: #f55e56;-Persimmon.
 
-A blue button should appear to click: _Make Public_,
+ success: #4ff7a6;-Verdant.
+ danger: #de1451;-Dragonfruit.
 
-Another blue button should appear to click: _Open Browser_.
+ dark: #292926;-Charcoal.
+ light: #f2f1e9;-Porcelain.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Fonts
+The Noto sans is the main font used throughout the whole website. This font was imported via Google Fonts. I'm using Sans Serif as a backup font, in case for any reason the main font isn't being imported into the site correctly.
 
-A blue button should appear to click: _Make Public_,
+Wireframes
+Wireframes were produced using Balsamiq.
 
-Another blue button should appear to click: _Open Browser_.
+Desktop Wireframe
+Mobile Wireframe
+Features
+Navigation
+The fully responsive navigation bar includes links to the Logo, About, plans, and register.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+The about navigation link includes includes the LD Fitness logo and an option regarding the cardio studio.
 
-To log into the Heroku toolbelt CLI:
+The navigation bar has a fixed position so that it remains visible at the top of the page as the user navigates through the individual sections.
+A drop shadow was applied to the navigation bar to make sure that it doesn't blend into the other sections of the page upon scrolling.
+This section allows the user to easily navigate through the site to find content without having to scroll back up to the top of the page or use the browser back button.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+The Landing Page Image.
+The landing page includes an eye catching image of some dumbells on a studio floor.
+This section provides the user with a clear visual representation of the purpose of the site.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+The plans link.
+The plans link includes options of various price plans for different budgets.
 
-------
+The register link.
+The register link includes e-mail so you can create a username to frequent the site and upgreade your price plan or contact staff fo further imformation.
 
-## Release History
+Footer
+The footer is brightley coloured to make it eye catching and stands out.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+Testing
+Validator Testing
+HTML
+some errors were returned when passing through the official W3C Markup Validator ,within the divs and where corrected.
+W3C Validator Results
+CSS
+No errors were found when passing through the official W3C CSS Validator
+W3C CSS Validator Results
+Accessibility
+Form Testing
+The form has been tested to ensure it would not submit without the required input fields being filled in (full name and email address).
+Links Testing
+All navigation links were tested manually to ensure the user is directed to the correct section of the website.
+Social Media links in the footer of each page were tested manually to ensure they direct the user to the correct page and open in a new tab.
+Browser Testing
+The Website was tested on Google Chrome, Firefox, Microsoft Edge, Safari browsers with no issues noted.
+Device Testing
+The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 8, iPhoneX and iPad to ensure responsiveness on various screen sizes. The website performed as intended. The responsive design was also checked using Chrome developer tools across multiple devices with structural integrity holding for the various sizes.
+I also used the following websites to test responsiveness:
+Responsinator
+Am I Responsive
+Family and family User Testing
+Friends and family were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+HTML Smooth Scroll does not work on Safari browser.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+Technologies Used
+Languages
+HTML5
+CSS
+Frameworks - Libraries - Programs Used
+Am I Responsive - Used to verify responsiveness of website on different devices.
+Responsinator - Used to verify responsiveness of website on different devices.
+Balsamiq - Used to generate Wireframe images.
+Chrome Dev Tools - Used for overall development and tweaking, including testing responsiveness and performance.
+Font Awesome - Used for Social Media icons in footer.
+GitHub - Used for version control and hosting.
+Google Fonts - Used to import and alter fonts on the page.
+Google images.
+W3C - Used for HTML & CSS Validation.
+Deployment
+The project was deployed using GitHub pages. The steps to deploy using GitHub pages are:
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+Credits
+Content
+Go to LD fitness for use of there name and ideas
+Google images
+Google fonts
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+Stack Overflow
+Acknowledgments
+My mentor Antonio for his support and advice.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+The Code Institute slack community for their quick responses and very helpful feedback!
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
